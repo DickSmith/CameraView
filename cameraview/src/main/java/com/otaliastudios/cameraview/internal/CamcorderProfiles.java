@@ -28,9 +28,9 @@ public class CamcorderProfiles {
     private static Map<Size, Integer> sizeToProfileMap = new HashMap<>();
 
     static {
-        sizeToProfileMap.put(new Size(176, 144), CamcorderProfile.QUALITY_QCIF);
-        sizeToProfileMap.put(new Size(320, 240), CamcorderProfile.QUALITY_QVGA);
-        sizeToProfileMap.put(new Size(352, 288), CamcorderProfile.QUALITY_CIF);
+//        sizeToProfileMap.put(new Size(176, 144), CamcorderProfile.QUALITY_QCIF);
+//        sizeToProfileMap.put(new Size(320, 240), CamcorderProfile.QUALITY_QVGA);
+//        sizeToProfileMap.put(new Size(352, 288), CamcorderProfile.QUALITY_CIF);
         sizeToProfileMap.put(new Size(720, 480), CamcorderProfile.QUALITY_480P);
         sizeToProfileMap.put(new Size(1280, 720), CamcorderProfile.QUALITY_720P);
 //        sizeToProfileMap.put(new Size(1920, 1080), CamcorderProfile.QUALITY_1080P);
